@@ -29,7 +29,7 @@ setup(
     long_description=README,
     zip_safe=False,
     platforms='any',
-    keywords=('webassets','react','jsx'),
+    keywords=('webassets', 'react', 'jsx'),
     classifiers=['Development Status :: 5 - Production/Stable',
                  'Intended Audience :: Developers',
                  'License :: OSI Approved :: BSD License',
@@ -37,5 +37,6 @@ setup(
                  'Operating System :: OS Independent',
                  'Programming Language :: Python :: 2.7',
                  'Topic :: Software Development :: Libraries',
-                 'Topic :: Utilities']
+                 'Topic :: Utilities'],
+    test_suite='tests'
 )
